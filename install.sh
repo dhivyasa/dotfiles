@@ -9,5 +9,8 @@ ln -s $(pwd)/vimrc $HOME/.vimrc
 ln -s $(pwd)/vim $HOME/.vim
 ln -s $(pwd)/emacs $HOME/.emacs
 ln -s $(pwd)/screenrc $HOME/.screenrc
+ln -s $(pwd)/aliases.sh $HOME/aliases.sh
+ln -s $(pwd)/lib/aliases/git/git.aliases.sh $HOME/.dotfiles/lib/aliases/git/git.aliases.sh
+
 
 vim -Es -u $HOME/.vimrc -c "PlugInstall | qa"
