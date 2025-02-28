@@ -46,5 +46,5 @@ load_custom_aliases() {
   done
 }
 
-remove_all_aliases
+#remove_all_aliases
 load_custom_aliases
